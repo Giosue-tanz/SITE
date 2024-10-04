@@ -7,8 +7,8 @@ function CardItem({ src, label }) {
       <figure className='cards__item__pic-wrap' data-category={label}>
         <img
           className='cards__item__img'
-          alt={label}
           src={src}
+          alt={label}
         />
       </figure>
     </div>

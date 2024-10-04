@@ -27,8 +27,8 @@ function Cards() {
       </div>
       <div className='cards__container'>
         <Swiper
-          spaceBetween={40}
-          slidesPerView={5}
+          spaceBetween={250}  
+          slidesPerView={5} 
           loop={true}
           navigation={{
             nextEl: '.swiper-button-next',

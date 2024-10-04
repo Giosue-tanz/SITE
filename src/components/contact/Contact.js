@@ -5,11 +5,7 @@ import img from '../../assets/a3.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
-
-
-
 class Contact extends React.Component {
-    
   render() {
     return (
       <section id="contact">
@@ -21,18 +17,18 @@ class Contact extends React.Component {
        
         <div className="contact-wrapper">
           {/* Left contact page */}
-          <img src={img}  className='img_profile' />
+          <img src={img} alt="Profile" className='img_profile' /> {/* Correzione qui */}
           {/* End Left contact page */}
 
           {/* Right contact page */}
           <div className="direct-contact-container">
             <ul className="contact-list">
               <li className="list-item">
-                <i className="fa fa-map-marker "><span className="contact-text place">Pisa, Italy</span></i>
+                <i className="fa fa-map-marker"><span className="contact-text place">Pisa, Italy</span></i>
               </li>
 
               <li className="list-item">
-                <i className="fa fa-phone "><span className="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">University of Pisa</a></span></i>
+                <i className="fa fa-phone"><span className="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">University of Pisa</a></span></i>
               </li>
 
               <li className="list-item">
@@ -42,7 +38,7 @@ class Contact extends React.Component {
 
             <hr />
 
-              <ul className="social-media-list">
+            <ul className="social-media-list">
               <li>
                 <a href="https://www.facebook.com/GiosueAiello.tanz" target="_blank" rel="noopener noreferrer" className="contact-icon">
                   <FontAwesomeIcon icon={faFacebookF} />
@@ -65,7 +61,6 @@ class Contact extends React.Component {
               </li>
             </ul>
 
-
             <hr />
           </div>
           {/* End Right contact page */}
@@ -75,7 +70,4 @@ class Contact extends React.Component {
   }
 }
 
-
 export default Contact;
-
-

@@ -11,32 +11,32 @@ const Footer = () => {
           <div className="footer-col">
             <h4>Tanz</h4>
             <ul>
-              <li><a href="#">about us</a></li>
-              <li><a href="#">our services</a></li>
-              <li><a href="#">privacy policy</a></li>
-              <li><a href="#">affiliate program</a></li>
+              <li><a href="#">about us</a></li> {/* Correzione qui */}
+              <li><a href="#">our services</a></li> {/* Correzione qui */}
+              <li><a href="#">privacy policy</a></li> {/* Correzione qui */}
+              <li><a href="#">affiliate program</a></li> {/* Correzione qui */}
             </ul>
           </div>
           <div className="footer-col">
             <h4>Profile</h4>
             <ul>
-              <li><a href="#">about me</a></li>
-              <li><a href="#">school</a></li>
-              <li><a href="#">goals</a></li>
-              <li><a href="#">curriculum</a></li>
+              <li><a href="#">about me</a></li> {/* Correzione qui */}
+              <li><a href="#">school</a></li> {/* Correzione qui */}
+              <li><a href="#">goals</a></li> {/* Correzione qui */}
+              <li><a href="#">curriculum</a></li> {/* Correzione qui */}
             </ul>
           </div>
           <div className="footer-col">
             <h4>online shop</h4>
             <ul>
-              <li><a href="#">T-shirts</a></li>
-              <li><a href="#">bag</a></li>
-              <li><a href="#">shoes</a></li>
-              <li><a href="#">band</a></li>
+              <li><a href="#">T-shirts</a></li> {/* Correzione qui */}
+              <li><a href="#">bag</a></li> {/* Correzione qui */}
+              <li><a href="#">shoes</a></li> {/* Correzione qui */}
+              <li><a href="#">band</a></li> {/* Correzione qui */}
             </ul>
           </div>
           <div className="footer-col">
-            <h4>follow us</h4>
+            <h4>follow me</h4>
             <div className="social-links">
               <a href="https://www.facebook.com/GiosueAiello.tanz"><FontAwesomeIcon icon={faFacebookF} /></a>
               <a href="https://twitter.com/giosue_aiello"><FontAwesomeIcon icon={faTwitter} /></a>
